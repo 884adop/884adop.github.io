@@ -42,7 +42,7 @@
             );
         }
         const start = Date.now();
-        const result = await objectDetector.detect(document.querySelector("img"));
+        const result = objectDetector.detect(document.querySelector("img"));
         const boundingBox = result[0].boundingBox;
         const clazz = result[0].classes[0];
         const strResult = `Bounding box: [${boundingBox.originX}, ${

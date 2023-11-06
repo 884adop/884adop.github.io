@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objekterkennung mit TensorFlow.js</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Objekterkennung</h1>
+    <img id="image" src="https://storage.googleapis.com/tfweb/demos/static/obj_detection.jpeg" alt="Objekt Erkennung" crossOrigin="anonymous">
+    <button id="detectButton">Objekte erkennen</button>
+    <div id="results"></div>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+	<script src="script.js"></script>
+</body>
+</html>
